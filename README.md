@@ -1,4 +1,6 @@
 # my-samples
+Contains samples of python code I wrote during my time at 'Trekeye', and three research notebooks (Jupyter).
+
 
 ## local_controller_wireless
 Wireless communication code for raspberry Pi unit. 
@@ -22,3 +24,11 @@ Perform BLE transmissions of the local control unit. Receives instruction type (
 
 #### WIFIProbeScanner.py
 Monitors wifi probes in order to determine which access points are around.
+
+
+## research-notebooks
+1. ED Control Tower - Research based on real ADT ('Admission Discharge Transfer') dataset. Performs statistical analysis of number of patients, patients' average wait times in the ED, ward admission distribution and more.
+
+2. Neural Signals Time Series - The dataset contains electrical measurements of 104 electrodes that were taken during a one hour-long conversation, once every ~2ms. The purpose of the research was to estimate future measurement values based on past measurements. At first, I used known linear models to perform the estimation and used their results as a reference. Then I implemented a WaveNet model, that is usually used for audio time-series estimation. It can be seen that the WaveNet model produces better results than each of the linear models. Note: the dataset I used in this project is private, hence was not uploaded to this repository.
+
+3. Sleep Deprivation - Performed an analysis of a questionnaire given to patients suffering from sleep deprivation issues. I performed interogation & cleaning of the data, found correlation between different features, and tried to create a model that predicts sleep deprivation according to known symptoms.
