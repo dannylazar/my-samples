@@ -1,6 +1,6 @@
 # my-samples
-Contains samples of python code I wrote during my time at 'Trekeye', and three research notebooks (Jupyter).
-
+This repository contains samples of python code I wrote during my time at 'Trekeye'. 
+It also contains three research projects I did, implemented in Jupyter notebooks.
 
 ## local_controller_wireless
 Wireless communication code for raspberry Pi unit. 
